@@ -14,7 +14,7 @@ You can copy paste my markdown photo insert as following:
 -->
 
 <p align="center">
-<img src="img/output.jpg" width=60% height=60%>
+<img src="output.jpg" width=60% height=60%>
 
 ## 🛠️ Description
 <!--Remove the below lines and add yours -->
