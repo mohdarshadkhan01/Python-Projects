@@ -23,10 +23,3 @@ for cnt in CONTOURS:
       else:
          IMAGE = cv2.drawContours(IMAGE, [cnt], -1, (0,255,0), 3)
          RECTANGLES = RECTANGLES + 1
-
-cv2.putText(IMAGE, 'Number of SQUARES: ' + str(SQUARES), (h+500, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
-cv2.putText(IMAGE, 'Number of RECTANGLES: ' + str(RECTANGLES), (h+500, 200), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
-
-cv2.imshow("Shapes", IMAGE)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
