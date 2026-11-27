@@ -1,4 +1,4 @@
-Hello World!!
+# Hello_World!!
 
 This CLI Application allows you to avoid the continious time setting while your exercising.
 Simply input your exercise requirements via the terminal.
@@ -14,5 +14,3 @@ example, You want to do leg lifts for 10 second in 10 reps. All you want to do i
 You can also --help for help
 
 We hope this tool helps you with your workout routine!
-
-github : https://github.com/hisham-slm
